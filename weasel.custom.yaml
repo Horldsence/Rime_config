@@ -1,0 +1,48 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.14.3_dev_0.8
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Fri Jan 20 16:13:33 2023"
+  rime_version: 1.7.3
+patch:
+  "preset_color_schemes/Horld":
+    author: Horld
+    back_color: 0x80000000
+    shadow_color: 0x00000000
+    border_color: 0xEF000000
+    label_color: 0xEFFFFFFF               #非高亮候选序号颜色
+    candidate_text_color: 0xEFFFFFFF
+    comment_text_color: 0xEF7D7D7D
+    hilited_back_color: 0xEF383838
+    hilited_label_color: 0xEF000000               #高亮（选中）候选序号文字颜色
+    hilited_candidate_back_color: 0xEFFFFFFF
+    hilited_candidate_text_color: 0xEF000000
+    hilited_text_color: 0xEFC4C4C4
+    name: Horld
+    text_color: 0xEFFFFFFF
+  style:
+    horizontal: true      # 候選橫排
+    inline_preedit: true  # 內嵌編碼（僅支持TSF）
+    display_tray_icon: true  # 顯示托盤圖標
+    font_face: 焦糖奶茶
+    color_scheme: Horld
+    font_point: 14
+    blur_window: true                  #背景模糊
+    color_font: true
+    # mark_text: "*"
+    label_font_point: 10               #★序号字号，小于等于候选字号
+    comment_font_face: "得意黑"         #注释字体
+    comment_font_point: 13             #★注释字号，小于等于候选字号
+    label_font_face: "HONOR Sans:REGULAR"      #★序号字体
+    label_format: "%s "               #编号规则
+    layout:
+      align_type: top              #★文字偏置，主要影响label和comment居上/居中/居下布置，尤其是label和comment字体比候选字小的时候，bottom/center/top
+      candidate_spacing: 20  #候选字间隔
+      min_width: 5
+      min_height: 9
+      border: 2             #边框宽度
+      margin_x: 7           #左右边距
+      margin_y: 7           #上下边距
+      hilite_padding: 0     #候选字背景色块高度
+      round_corner: 8       #候选字背景色块圆角
+      round_corner_ex: 8     #窗口圆角
