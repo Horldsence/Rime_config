@@ -2,46 +2,37 @@ customization:
   distribution_code_name: Weasel
   distribution_version: 0.14.3_dev_0.8
   generator: "Weasel::UIStyleSettings"
-  modified_time: "Fri Jan 20 16:13:33 2023"
+  modified_time: "Thu Apr 20 19:24:58 2023"
   rime_version: 1.7.3
 patch:
   "preset_color_schemes/Horld":
-    name: Horld
     author: Horld
-    back_color: 0x0D000000
-    border_color: 0x7A7A7A
-    text_color: 0xFFFFFF
-    hilited_text_color: 0xD9D9D9
-    hilited_back_color: 0x545454
-    hilited_candidate_text_color: 0x000000
-    hilited_candidate_back_color: 0xDBDBDB
+    back_color: 0x99000000
+    border_color: 0x000000
     candidate_text_color: 0xBDBDBD
-    label_color: 0xEFFFFFFF               #非高亮候选序号颜色
-    hilited_label_color: 0xEF000000               #高亮（选中）候选序号文字颜色
     comment_text_color: 0xB3B3B3
+    hilited_back_color: 0x545454
+    hilited_candidate_back_color: 0xDBDBDB
+    hilited_candidate_text_color: 0x000000
+    hilited_label_color: 0xEF000000
+    hilited_text_color: 0xD9D9D9
+    label_color: 0xEFFFFFFF
+    name: Horld
+    text_color: 0xFFFFFF
   style:
-    horizontal: true      # 候選橫排
-    inline_preedit: true  # 內嵌編碼（僅支持TSF）
-    display_tray_icon: true  # 顯示托盤圖標
-    font_face: 焦糖奶茶
-    color_scheme: Horld
-    font_point: 14
-    blur_window: true                  #背景模糊
     color_font: true
-    # mark_text: "*"
-    label_font_point: 10               #★序号字号，小于等于候选字号
-    comment_font_face: "得意黑"         #注释字体
-    comment_font_point: 13             #★注释字号，小于等于候选字号
-    label_font_face: "HONOR Sans:REGULAR"      #★序号字体
-    label_format: "%s "               #编号规则
-    layout:
-      align_type: top              #★文字偏置，主要影响label和comment居上/居中/居下布置，尤其是label和comment字体比候选字小的时候，bottom/center/top
-      candidate_spacing: 20  #候选字间隔
-      min_width: 5
-      min_height: 9
-      border: 2             #边框宽度
-      margin_x: 7           #左右边距
-      margin_y: 7           #上下边距
-      hilite_padding: 0     #候选字背景色块高度
-      round_corner: 8       #候选字背景色块圆角
-      round_corner_ex: 10     #窗口圆角
+    color_scheme: Horld
+    comment_font_face: "得意黑"
+    comment_font_point: 13
+    display_tray_icon: true
+    font_face: "HYQiHei 40S"
+    font_point: 13
+    horizontal: true
+    inline_preedit: true
+    label_font_face: MiSans
+    label_font_point: 10
+    label_format: " ꧅ %s »"
+    layout: {align_type: top, border: 0, candidate_spacing: 25, hilite_padding: 5, margin_x: 7, margin_y: 7, min_height: 10, min_width: 10, round_corner: 8, round_corner_ex: 10}
+    mark_text: ""
+  "style/color_scheme": Horld
+  "style/blur_window": true

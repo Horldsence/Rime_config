@@ -1,8 +1,8 @@
 __build_info:
-  rime_version: 1.8.5
+  rime_version: 1.7.3
   timestamps:
-    weasel: 1676610910
-    weasel.custom: 1678620237
+    weasel: 1678631034
+    weasel.custom: 1681990309
 app_options:
   cmd.exe:
     ascii_mode: true
@@ -12,19 +12,18 @@ config_version: 0.22
 preset_color_schemes:
   Horld:
     author: Horld
-    back_color: 0x80000000
-    border_color: 0xEF000000
-    candidate_text_color: 0xEFFFFFFF
-    comment_text_color: 0xEF7D7D7D
-    hilited_back_color: 0xEF383838
-    hilited_candidate_back_color: 0xEFFFFFFF
-    hilited_candidate_text_color: 0xEF000000
+    back_color: 0x99000000
+    border_color: 0x000000
+    candidate_text_color: 0xBDBDBD
+    comment_text_color: 0xB3B3B3
+    hilited_back_color: 0x545454
+    hilited_candidate_back_color: 0xDBDBDB
+    hilited_candidate_text_color: 0x000000
     hilited_label_color: 0xEF000000
-    hilited_text_color: 0xEFC4C4C4
+    hilited_text_color: 0xD9D9D9
     label_color: 0xEFFFFFFF
     name: Horld
-    shadow_color: 0x00000000
-    text_color: 0xEFFFFFFF
+    text_color: 0xFFFFFF
   android:
     author: "Patricivs <ipatrickmac@me.com>"
     back_color: 0x99731c
@@ -505,21 +504,22 @@ style:
   comment_font_face: "得意黑"
   comment_font_point: 13
   display_tray_icon: true
-  font_face: "焦糖奶茶"
-  font_point: 14
+  font_face: "HYQiHei 40S"
+  font_point: 13
   horizontal: true
   inline_preedit: true
-  label_font_face: "HONOR Sans:REGULAR"
+  label_font_face: MiSans
   label_font_point: 10
-  label_format: "%s "
+  label_format: " ꧅ %s »"
   layout:
     align_type: top
-    border: 2
-    candidate_spacing: 20
-    hilite_padding: 0
+    border: 0
+    candidate_spacing: 25
+    hilite_padding: 5
     margin_x: 7
     margin_y: 7
-    min_height: 9
-    min_width: 5
+    min_height: 10
+    min_width: 10
     round_corner: 8
-    round_corner_ex: 8
+    round_corner_ex: 10
+  mark_text: ""

@@ -1,11 +1,11 @@
 __build_info:
-  rime_version: 1.8.5
+  rime_version: 1.7.3
   timestamps:
-    default: 1561218646
-    default.custom: 1674225177
-    key_bindings: 1561218646
+    default: 1668857786
+    default.custom: 1679738729
+    key_bindings: 1668857786
     key_bindings.custom: 0
-    punctuation: 1561218646
+    punctuation: 1668857786
     punctuation.custom: 0
 ascii_composer:
   good_old_caps_lock: true
@@ -29,6 +29,7 @@ key_binder:
     - {accept: "Control+h", send: BackSpace, when: composing}
     - {accept: "Control+g", send: Escape, when: composing}
     - {accept: "Control+bracketleft", send: Escape, when: composing}
+    - {accept: "Control+y", send: Page_Up, when: composing}
     - {accept: "Alt+v", send: Page_Up, when: composing}
     - {accept: "Control+v", send: Page_Down, when: composing}
     - {accept: ISO_Left_Tab, send: "Shift+Left", when: composing}
@@ -125,7 +126,6 @@ recognizer:
     url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
 schema_list:
   - schema: clover
-  - schema: luna_pinyin_simp
 switcher:
   abbreviate_options: true
   caption: "〔方案選單〕"
